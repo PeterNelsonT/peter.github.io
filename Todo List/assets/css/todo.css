@@ -1,0 +1,74 @@
+body{
+	background: linear-gradient(to right,steelblue,purple,grey,blue);
+}
+#container{
+	width:250px;
+	margin: 100px auto;
+	padding: 0px 0px 0px 0px;
+	box-shadow: 0 0 3px rgba(0,0,0,0.1);
+	font-family: Roboto;
+}
+
+
+h3{
+	width: 200px;
+	float: left;
+	padding: 5px 5px 5px 10px;
+	margin: 0;
+	color: white;
+	font-weight: normal;
+	background-color: steelblue;
+}
+.nw{
+	color: white;
+	background-color: steelblue;
+	border: none;
+	margin: none;
+	height: 32px;
+	width: 35px;
+	font-size: 1.6em;
+	font-weight: bold;
+}
+.done{
+	text-decoration: line-through;
+	color: grey;
+}
+.btn
+{
+	float: left;
+	color: white;
+	background-color: red;
+	border: none;
+	margin: 0px 5px 0px 0px;
+	text-align: center;
+	height: 30px;
+	width: 30px;
+	font-weight: bold;
+}
+.lst{
+	/*padding: 5px 5px 5px 5px;*/
+	height: 30px;
+	margin: 0;
+	background-color: #fff;
+	/*width: 96%;*/
+}
+.lst:nth-child(2n){
+	/*padding: 5px 5px 5px 5px;*/	
+	height: 30px;
+	margin: 0;
+	background-color: #f7f7f7;
+	/*width: 96%;*/
+}
+
+input{
+	border: none;
+	background-color: #f7f7f7;
+	padding: 8px 5px 8px 10px;
+	margin: 0; 
+	width: 94%;
+}
+li
+{
+	padding: 5px 5px 5px 10px;
+	height: 30px;
+}
